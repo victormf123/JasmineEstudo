@@ -16,10 +16,16 @@
     "@angular/compiler": "~8.2.7",
     "@angular/core": "~8.2.7",
     "@angular/forms": "~8.2.7",
-    "@angular/platform-browser": "~8.2.7",
+    "@angular/http": "^2.3.1",
+    "@angular/platform-browser": "^8.2.11",
     "@angular/platform-browser-dynamic": "~8.2.7",
     "@angular/router": "~8.2.7",
+    "breeze-bridge-angular": "^4.0.2",
+    "breeze-client": "^1.7.2",
+    "core-js": "^2.4.1",
     "rxjs": "~6.4.0",
+    "rxjs-compat": "^6.5.3",
+    "ts-helpers": "^1.1.1",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
@@ -42,6 +48,9 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "karma-cli": "^1.0.1",
+    "karma-remap-istanbul": "^0.2.1",
+    "webpack": "^4.41.2"
   }
 }
